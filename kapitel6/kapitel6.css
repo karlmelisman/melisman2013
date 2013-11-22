@@ -1,0 +1,13 @@
+table {
+    border: 1px solid #006699;
+}
+th {
+    background-color: #006699;
+    color:white;
+}
+tr:nth-child(2n) {
+    background-color: #d2e7e2;
+}
+td {
+    padding-left: 5px;
+}
