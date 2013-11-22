@@ -1,0 +1,72 @@
+Tag;Beschreibung;Inline- oder Block-Element?;Semantisches HTML?;Priorität
+a;Verweis (Hyperlink) und Anker fuer Verweise;i;s;1
+abbr;Abkuerzung;i;s;2
+acronym;Abkuerzung;i;s;3
+address;Kontaktangaben, Adresse;b;s;3
+area;Verweis-sensitiver Bereich in einer imagemap;?;b;3
+b;Hervorhebung, Fettdruck, bold;i;n;2
+base;Basis-URL fuer Referenzen;?;n;3
+bdo;Richtungsaenderung bei direktionalem Text;?;b;3
+big;Groesser dargestellter Text;i;n;3
+blockquote;Zitat, als eigener Textabsatz;b;s;2
+body;Inhaltsbereich eines HTML-Dokuments;b;s;1
+br;Zeilenumbruch;?;n;1
+button;Schaltflaeche, z.B. in einem Formular;?;s;1
+caption;Tabellenueber-/-unterschrift;b;s;2
+cite;Zitat, innerhalb eines Absatzes;b;s;3
+code;Quelltext-Auszug;i;n;3
+col;Tabellenspalte;?;s;3
+colgroup;Gruppe von Tabellenspalten;?;s;3
+dd;Definitionsbeschreibung;?;s;3
+del;durchgestrichener, geloeschter Text;i;s;3
+dfn;Definition;?;s;3
+div;Bereich, Container;b;n;1
+dl;Definitionsliste;b;s;3
+dt;Definitionsbegriff;?;s;3
+em;Hervorhebung, Betonung;i;s;1
+fieldset;Gruppe von Kontrollelementen in einem Formular;b;b;3
+form;Formular;b;b;1
+h1, h2, . . . h6;Ueberschriften unterschiedlicher Ordnung;b;s;1
+head;Dokumentkopf;?;s;1
+hr;Trennlinie;b;n;1
+html;Gesamtdokument, Wurzel;?;s;1
+i;Kursiv, italic;i;n;1
+img;Bild, eingebettete Grafik;i;n;1
+input;Eingabeelement;i;s;1
+kbd;Einzugebener Text;i;?;3
+label;Beschriftung eines Eingabeelements;i;s;2
+legend;Beschriftung eines Eingabeelements;?;s;2
+li;Listenelement;b;s;1
+link;Medienunabhaengiger Link;i;s;1
+map;Bereich fuer verweis-sensitive Grafiken;b;n;2
+meta;Metadaten unterschiedlichster Art;?;?;1
+noscript;Bereich fuer Inhalte, die ohne Javascript angezeigt werden;?;n;2
+object;eingebettetes Objekt;i;n;2
+ol;Geordnete, ueblicherweise nummerierte Liste;b;s;1
+optgroup;Gruppierung von Auswahlmoeglichkeiten;i;s;3
+option;Auswahlmoeglichkeit in einer Auswahlliste in einem Formular;i;s;1
+p;Absatz;b;s;1
+param;Parameter fuer Tag object;?;n;2
+pre;Vorformatierter Text;b;n;2
+q;Zitat im Text;i;s;3
+samp;Beispieltext;?;s;3
+script;Bereich fuer Javascript (u.a.);?;?;1
+select;Auswahlliste in einem Formular;i;s;1
+small;kleiner dargestellter Text;i;n;3
+span;Auswahl eines Bereichs, z. B. in einem Absatz;i;n;1
+strong;Stark betonter Inhalt;i;n;2
+style;Bereich fuer CSS-Angaben;?;?;1
+sub;Tiefgestellter Text;i;n;2
+sup;Hochgestellter Text;i;n;2
+table;Tabelle;n;b;1
+tbody;Tabellenkoerper;i;b;2
+thead;Tabellenkopf;i;b;2
+td;Tabellenzelle;i;b;1
+textarea;Mehrzeiliger Eingabebereich in einem Formular;?;b;1
+tfoot;Tabellenfussbereich;?;b;2
+th;Tabellenkopfzeile;?;b;2
+title;Titel des Dokuments;?;s;1
+tr;Tabellenzeile;?;b;1
+tt;Schreibmaschinentext;i;n;3
+ul;Aufzaehlungsliste;b;s;1
+var;Variabler Name;?;?;3
