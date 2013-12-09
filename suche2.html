@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wikipedia Suche</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1>Barrierefreies Suchformular</h1>
+        <form action="http://de.wikipedia.org/wiki/Spezial:Suche" method="get">
+            <fieldset>
+                <legend>In Wikipedia suchen</legend>
+                    <label for="search">Suchwort <span>*</span></label>
+                    <input id="search" type="text" name="search" value="" tabindex="1" />
+                    <button type="submit" name="go" value="Artikel" class="btn btn-default">Artikel</button>
+                    <button type="submit" name="fulltext" value="Volltext" class="btn btn-default">Volltext</button>
+                <p>* = Pflichtfelder</p>
+            </fieldset>
+        </form>
+  </body>
+</html>
